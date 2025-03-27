@@ -68,5 +68,32 @@ body {
     margin-top: 40px;
   }
   
+  /* Section divider */
+hr.section-divider {
+  border: none;
+  border-top: 2px solid red;
+  margin: 40px 0;
+  width: 100%;
+}
+
+/* Table styling for 'My Links' or any info table */
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.info-table th,
+.info-table td {
+  border: 1px solid #999;
+  padding: 10px;
+  text-align: left;
+}
+
+.info-table th {
+  background-color: #004080;
+  color: white;
+}
+
   
   
